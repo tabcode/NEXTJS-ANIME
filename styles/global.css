@@ -1,0 +1,87 @@
+body{
+    background-color: white !important;
+}
+*::-webkit-scrollbar {
+    height: 10px !important;
+    width: 10px;
+    background: #eee !important; 
+}
+*::-webkit-scrollbar-thumb {
+    background: gray;
+}
+nav{
+    background-color:#03444C;
+}
+nav>a,nav>ul>li>a,nav>span{
+    color: #fff !important;
+}
+.scroll{
+    overflow-x: scroll;
+    overflow-y: hidden;   
+}
+.scroll::-webkit-scrollbar {
+    height: 10px !important;
+    width: 5px;
+    background: white !important; 
+    border-radius: 5px;
+}
+.scroll::-webkit-scrollbar-thumb {
+    background: #03444C;
+    border-radius: 4px;
+}
+
+.image-container{
+    position: relative !important;
+    transition: transform 0.2s !important;
+}
+.image-container:hover{
+    cursor: pointer !important;
+    transform: scale(1.1) !important;
+}
+.image-container:hover .overlay{
+    opacity: 1;
+    color:white;
+}
+.overlay{
+    position: absolute;
+    background: rgba(0,0,0,0.8);
+    width: 100%;
+    opacity: 0;
+    bottom: 0;
+    font-size: 15px;
+    padding: 20px;
+}
+a{
+    cursor: pointer !important;
+}
+/* steps */
+code{
+    display: block;
+    padding: .5em;
+    height: auto;
+    border-radius: 5px;
+    overflow-x: hidden !important;
+}
+code:hover{
+    overflow-y: auto; 
+    overflow-x: auto !important; 
+}
+.head-img{
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    background: cover no-repeat;
+    background: black;
+    height: 400px;
+    display: flex;
+}
+.head-img>img{
+    object-fit: scale-down;
+    height: 400px;
+}
+h2{
+    text-align: center;
+}
+.text{
+    color: white !important;
+}

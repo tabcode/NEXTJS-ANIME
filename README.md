@@ -1,0 +1,6 @@
+<h1>NEXT JS ANIME</h1>
+NEXT JS
+<br>
+MONGODB
+<br>
+created 01/21/2021

@@ -1,0 +1,21 @@
+{
+  "name": "learn-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "npm run build"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "isomorphic-fetch": "^3.0.0",
+    "mongodb": "^3.6.3",
+    "next": "^10.0.0",
+    "next-connect": "^0.9.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "reactstrap": "^8.7.1"
+  }
+}
